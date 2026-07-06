@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/sobre", (req, res) => {
     res.json({
-        nome: "João Paulo",
+        nome: "Kleber",
         disciplina: "Desenvolvimento Web",
         ano: 2026
     });
